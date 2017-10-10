@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qmsadmin *.css
+recursive-include qmsadmin *.csv
+recursive-include qmsadmin *.html
+recursive-include qmsadmin *.ico
+recursive-include qmsadmin *.js
+recursive-include qmsadmin *.json
+recursive-include qmsadmin *.md
+recursive-include qmsadmin *.png
+recursive-include qmsadmin *.py
+recursive-include qmsadmin *.svg
+recursive-include qmsadmin *.txt
+recursive-exclude qmsadmin *.pyc
